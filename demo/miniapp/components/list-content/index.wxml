@@ -1,0 +1,2 @@
+<!--components/List.wxml-->
+<text>{{listContent}}</text>

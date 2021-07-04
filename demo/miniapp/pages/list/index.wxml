@@ -1,0 +1,5 @@
+<!--pages/list/index.wxml-->
+<text>{{title}}</text>
+<View>
+    <list-content></list-content>
+</View>

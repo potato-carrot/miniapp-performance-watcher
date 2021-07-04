@@ -1,0 +1,25 @@
+{
+  "name": "miniapp-performance-watcher",
+  "version": "1.0.5",
+  "description": "多端小程序运行时性能监控SDK",
+  "contact": "haotianhan@126.com",
+  "main": "./lib/index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "小程序",
+    "性能监控"
+  ],
+  "author": "potato-carrot",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "babel-loader": "^8.2.2",
+    "terser-webpack-plugin": "^5.1.4",
+    "webpack": "^5.41.1",
+    "webpack-cli": "^4.7.2"
+  }
+}
